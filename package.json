@@ -1,7 +1,9 @@
 {
-  "name": "cappuccino",
-  "displayName": "Cappuccino",
+  "name": "cappuccino-vscode-theme",
+  "displayName": "Cappuccino's Theme",
   "description": "My own theme.",
+  "repository": "https://github.com/Cappuccino093/cappuccino-vscode-theme",
+  "publisher": "Cappuccino",
   "version": "0.1.0",
   "engines": {
     "vscode": "^1.75.0"

@@ -4,6 +4,7 @@
   "description": "My own theme.",
   "repository": "https://github.com/Cappuccino093/cappuccino-vscode-theme",
   "publisher": "Cappuccino",
+  "icon": "https://raw.githubusercontent.com/Cappuccino093/cappuccino-vscode-theme/main/Cappuccino%20-%20128x128.png",
   "version": "0.1.0",
   "engines": {
     "vscode": "^1.75.0"

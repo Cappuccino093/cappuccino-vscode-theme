@@ -1,16 +1,9 @@
-# cappuccino README
+# Cappuccino's Theme!
 
-## Working with Markdown
+## Contribuying and testing theme
+This is a theme builded for me, you can contribute to it if you want to!
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Special thanks
+This theme is based in [Night Owl Theme](https://github.com/sdras/night-owl-vscode-theme), please check it!
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+## **Enjoy!**

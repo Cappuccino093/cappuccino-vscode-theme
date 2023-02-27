@@ -1,0 +1,21 @@
+{
+  "name": "cappuccino",
+  "displayName": "Cappuccino",
+  "description": "My own theme.",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cappuccino",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Cappuccino-color-theme.json"
+      }
+    ]
+  }
+}

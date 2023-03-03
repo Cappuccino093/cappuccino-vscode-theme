@@ -140,11 +140,95 @@
 	},
 	"tokenColors": [
 		{
-			"name": "Text",
+			"name": "Comment",
 			"scope": [
-				"source",
-				"text"
+				"comment",
+				"comment.line",
+				"comment.block",
+				"comment.block.documentation"
 			],
+			"settings": {
+				"foreground": "#006591"
+			}
+		},
+		{
+			"name": "Constant",
+			"scope": [
+				"constant",
+				"constant.character",
+				"constant.character.escape",
+				"constant.numeric",
+				"constant.numeric.float",
+				"constant.numeric.hex",
+				"constant.numeric.integer",
+				"constant.numeric.octal",
+				"constant.other",
+				"constant.regexp",
+				"constant.rgb-value"
+			],
+			"settings": {
+				"foreground": "#9dd852"
+			}
+		},
+		{
+			"name": "Entity",
+			"scope": ["entity"],
+			"settings": {
+				"foreground": "#4355b9"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": ["invalid"],
+			"settings": {
+				"foreground": "#bd0044"
+			}
+		},
+		{
+			"name": "keyword",
+			"scope": ["keyword"],
+			"settings": {
+				"foreground": "#6f43c0"
+			}
+		},
+		{
+			"name": "Markup",
+			"scope": "markup",
+			"settings": {
+				"foreground": "#9ecaff"
+			}
+		},
+		{
+			"name": "Text",
+			"scope": ["meta"],
+			"settings": {
+				"foreground": "#9ecaff"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": ["storage"],
+			"settings": {
+				"foreground": "#6f43c0"
+			}
+		},
+		{
+			"name": "String",
+			"scope": ["string"],
+			"settings": {
+				"foreground": "#77dc7c"
+			}
+		},
+		{
+			"name": "Support",
+			"scope": ["support"],
+			"settings": {
+				"foreground": "#4355b9"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": ["variable"],
 			"settings": {
 				"foreground": "#9ecaff"
 			}

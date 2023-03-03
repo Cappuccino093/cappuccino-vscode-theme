@@ -1,26 +1,27 @@
 {
-  "name": "cappuccino-vscode-theme",
-  "displayName": "Cappuccino's Theme",
-  "description": "A theme for my own use.",
-  "version": "0.3.0",
-  "engines": {
-    "vscode": "^1.75.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "id": "cappuccino-vscode-dark-color-theme",
-        "label": "Cappuccino's Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/cappuccino-vscode-dark-color-theme.json"
-      }
-    ]
-  },
-  "devDependencies": {
-    "eslint": "^8.35.0",
-    "prettier": "^2.8.4"
-  }
+	"name": "cappuccino-vscode-theme",
+	"displayName": "Cappuccino's Theme",
+	"description": "A theme for my own use.",
+	"version": "0.3.0",
+	"engines": {
+		"vscode": "^1.75.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"id": "cappuccino-vscode-dark-color-theme",
+				"label": "Cappuccino's Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/cappuccino-vscode-dark-color-theme.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"eslint": "^8.35.0",
+		"prettier": "^2.8.4"
+	}
 }
+

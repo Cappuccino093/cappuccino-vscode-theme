@@ -232,9 +232,9 @@
 		"editor.lineHighlightBackground": "#003258",
 		"editor.lineHighlightBorder": "#00000000",
 
-		// TODO Continue here
+		// TODO Continue here <-
 
-		// TODO
+		// TODO Other things
 		// Git colors
 		"gitDecoration.addedResourceForeground": "#52df9a",
 		"gitDecoration.modifiedResourceForeground": "#bbd138",

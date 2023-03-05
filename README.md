@@ -2,6 +2,7 @@
 
 ## Contribuying and testing theme
 This is a theme builded for me, so it's not compatible with all languages! ⚠️
+
 You can contribute to it if you want to, I'll be so gratefully! 💙
 
 ### Compatible languages (Tested by me) ✅
@@ -12,7 +13,10 @@ You can contribute to it if you want to, I'll be so gratefully! 💙
 - TypeScript
 - Markdown
 
-## Special thanks 💖
-This theme is based in [Night Owl Theme](https://github.com/sdras/night-owl-vscode-theme), please check it!
+## Tools
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Yo Code - Extension and Customization Generator](https://github.com/Microsoft/vscode-generator-code)
+- [Material Design Color Palette](https://m1.material.io/style/color.html#color-color-palette)
+- [Material Theme Builder](https://m3.material.io/theme-builder#/custom)
 
-## **Enjoy!** ☕
+## **Enjoy!** 💖

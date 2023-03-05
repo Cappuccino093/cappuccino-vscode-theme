@@ -2,10 +2,15 @@
 	"name": "cappuccino-vscode-theme",
 	"displayName": "Cappuccino's Theme",
 	"description": "A theme for my own use.",
-	"version": "0.3.0",
+	"version": "0.3.0-preview",
 	"engines": {
 		"vscode": "^1.75.0"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Cappuccino093/cappuccino-vscode-theme"
+	},
+	"preview": true,
 	"categories": [
 		"Themes"
 	],
@@ -24,4 +29,3 @@
 		"prettier": "^2.8.4"
 	}
 }
-

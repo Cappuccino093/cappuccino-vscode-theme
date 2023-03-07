@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../test"
+		},
+		{
+			"path": "../../../Trabajo/Sigel/Parte de Actividad/parte-de-actividad-app"
+		},
+		{
+			"path": "../../../Trabajo/Sigel/Parte de Actividad/parte-de-actividad-api"
+		},
+		{
+			"path": "../../../Trabajo/Sigel/Portal Único para Clientes Corporativos/functions"
+		},
+		{
+			"path": "../../../Trabajo/Sigel/Portal Único para Clientes Corporativos/portal-web-pucc"
+		},
+		{
+			"path": "../../../Trabajo/Sigel/Portal Único para Clientes Corporativos/database"
+		}
+	],
+	"settings": {}
+}

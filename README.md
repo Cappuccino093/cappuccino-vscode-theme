@@ -2,6 +2,7 @@
 
 ## Contribuying and testing theme
 This is a theme builded for me, so it's not compatible with all languages! ⚠️
+
 You can contribute to it if you want to, I'll be so gratefully! 💙
 
 ### Tested languages ✅

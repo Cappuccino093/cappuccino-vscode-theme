@@ -1,5 +1,7 @@
 # Cappuccino's Theme! ☕
 
+This is a theme for my personal use, but you can use it if you want to! 😊
+
 ## Contribuying and testing theme
 This is a theme builded for me, so it's not compatible with all languages! ⚠️
 

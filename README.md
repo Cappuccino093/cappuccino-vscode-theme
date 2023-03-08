@@ -4,12 +4,18 @@
 This is a theme builded for me, so it's not compatible with all languages! ⚠️
 You can contribute to it if you want to, I'll be so gratefully! 💙
 
-### Compatible languages (Tested by me) ✅
+### Tested languages ✅
+- C#
+- Razor
+- Java
 - HTML
 - CSS
 - SCSS
 - JavaScript
 - TypeScript
+- JSX
+- PHP
+- SQL
 - Markdown
 
 ## Tools

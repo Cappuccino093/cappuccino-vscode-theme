@@ -124,7 +124,7 @@
 		"profileBadge.foreground": "#003258",
 
 		"sideBar.background": "#002747",
-		"sideBar.foreground": "#d6e3ff",
+		"sideBar.foreground": "#96ccff",
 		"sideBar.border": "#00000000",
 		"sideBar.dropBackground": "#00000000",
 		"sideBarTitle.foreground": "#d6e3ff",
@@ -214,25 +214,104 @@
 		"editor.lineHighlightBackground": "#003258",
 		"editor.lineHighlightBorder": "#00000000",
 
-		"gitDecoration.addedResourceForeground": "#52df9a",
-		"gitDecoration.modifiedResourceForeground": "#bbd138",
-		"gitDecoration.deletedResourceForeground": "#bd0044",
-		"gitDecoration.renamedResourceForeground": "#bbd138",
-		"gitDecoration.stageModifiedResourceForeground": "#bbd138",
-		"gitDecoration.stageDeletedResourceForeground": "#bd0044",
-		"gitDecoration.untrackedResourceForeground": "#9ecaff",
-		"gitDecoration.ignoredResourceForeground": "#006874",
-		"gitDecoration.conflictingResourceForeground": "#bd0044",
-		"gitDecoration.submoduleResourceForeground": "#4fd8eb",
+		"gitDecoration.addedResourceForeground": "#d3bbff",
+		"gitDecoration.modifiedResourceForeground": "#d3bbff",
+		"gitDecoration.deletedResourceForeground": "#d3bbff",
+		"gitDecoration.renamedResourceForeground": "#d3bbff",
+		"gitDecoration.stageModifiedResourceForeground": "#d3bbff",
+		"gitDecoration.stageDeletedResourceForeground": "#d3bbff",
+		"gitDecoration.untrackedResourceForeground": "#d3bbff",
+		"gitDecoration.ignoredResourceForeground": "#d3bbff",
+		"gitDecoration.conflictingResourceForeground": "#d3bbff",
+		"gitDecoration.submoduleResourceForeground": "#d3bbff",
+
 		"titleBar.activeBackground": "#001d36",
 		"notifications.background": "#00497d",
 		"panel.background": "#002747",
 		"statusBar.background": "#001d36"
 	},
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"annotation": "#007bcc",
+		"annotationMember": "#96ccff",
+		"class": "#007bcc",
+		"comment": "#006591",
+		"controlKeyword": "#a04ce6",
+		"decorator": "#007bcc",
+		"delegate": "#007bcc",
+		"enum": "#007bcc",
+		"enumMember": "#96ccff",
+		"event": "#007bcc",
+		"excludedCode": "#006591",
+		"extensionMethod": "#ff4f75",
+		"field": "#96ccff",
+		"function": "#ff4f75",
+		"interface": "#007bcc",
+		"keyword": "#a04ce6",
+		"label": "#ff4f75",
+		"local": "#96ccff",
+		"macro": "#ff4f75",
+		"markupAttribute": "#96ccff",
+		"markupComment": "#006591",
+		"markupCommentPunctuation": "#006591",
+		"markupElement": "#007bcc",
+		"markupOperator": "#fff1b2",
+		"markupTagDelimiter": "#fff1b2",
+		"method": "#ff4f75",
+		"modifier": "#a04ce6",
+		"module": "#007bcc",
+		"namespace": "#524cca",
+		"number": "#9dd852",
+		"operator": "#fff1b2",
+		"operatorOverloaded": "#fff1b2",
+		"parameter": "#96ccff",
+		"plainKeyword": "#a04ce6",
+		"preprocessorKeyword": "#a04ce6",
+		"preprocessorText": "#96ccff",
+		"property": "#96ccff",
+		"punctuation": "#fff1b2",
+		"razorComment": "#006591",
+		"razorComponentAttribute": "#96ccff",
+		"razorComponentElement": "#007bcc",
+		"razorDirective": "#a04ce6",
+		"razorDirectiveAttribute": "#96ccff",
+		"razorDirectiveColon": "#fff1b2",
+		"razorTagHelperAttribute": "#96ccff",
+		"razorTagHelperElement": "#007bcc",
+		"razorTransition": "#fff1b2",
+		"record": "#007bcc",
+		"recordComponent": "#96ccff",
+		"regexAlternation": "#9dd852",
+		"regexAnchor": "#9dd852",
+		"regexCharacterClass": "#9dd852",
+		"regexComment": "#9dd852",
+		"regexGrouping": "#9dd852",
+		"regexOtherEscape": "#9dd852",
+		"regexp": "#9dd852",
+		"regexQuantifier": "#9dd852",
+		"regexSelfEscapedCharacter": "#9dd852",
+		"string": "#00a669",
+		"stringEscapeCharacter": "#9dd852",
+		"stringVerbatim": "#9dd852",
+		"struct": "#007bcc",
+		"type": "#007bcc",
+		"typeParameter": "#96ccff",
+		"variable": "#96ccff",
+		"xmlDocCommentAttributeName": "#96ccff",
+		"xmlDocCommentAttributeQuotes": "#fff1b2",
+		"xmlDocCommentAttributeValue": "#006591",
+		"xmlDocCommentCDataSection": "#006591",
+		"xmlDocCommentComment": "#006591",
+		"xmlDocCommentDelimiter": "#006591",
+		"xmlDocCommentEntityReference": "#006591",
+		"xmlDocCommentName": "#007bcc",
+		"xmlDocCommentProcessingInstruction": "#006591",
+		"xmlDocCommentText": "#006591"
+	},
 	"tokenColors": [
 		{
 			"name": "Text",
-			"scope": ["text", "source"],
+			"scope": ["text"],
 			"settings": {
 				"foreground": "#d6e3ff"
 			}
@@ -267,7 +346,6 @@
 				"constant.other",
 				"string.interpolated",
 				"string.regexp",
-				"string.other",
 				"support.constant",
 				"markup.underline.link",
 				"keyword.other.unit"
@@ -291,7 +369,6 @@
 				"markup.heading",
 				"entity.other.attribute-name.class",
 				"entity.other.attribute-name.id",
-				"meta.method-call variable.other.object",
 				"storage.type"
 			],
 			"settings": {
@@ -314,12 +391,7 @@
 		},
 		{
 			"name": "Keywords",
-			"scope": [
-				"keyword",
-				"keyword.control",
-				"keyword.other",
-				"storage.modifier"
-			],
+			"scope": ["keyword", "keyword.control", "keyword.other", "storage.modifier"],
 			"settings": {
 				"foreground": "#a04ce6"
 			}
@@ -333,7 +405,8 @@
 				"string.quoted.double",
 				"string.quoted.triple",
 				"string.quoted.other",
-				"string.unquoted"
+				"string.unquoted",
+				"string.other"
 			],
 			"settings": {
 				"foreground": "#00a669"
@@ -354,7 +427,7 @@
 			}
 		},
 		{
-			"name": "Variables and Punctuation",
+			"name": "Variables",
 			"scope": [
 				"variable",
 				"support.variable",
@@ -371,7 +444,6 @@
 				"support.type.property-name",
 				"meta.at-rule",
 				"meta.method",
-				"meta.method.body variable.other.object",
 				"constant.other.key"
 			],
 			"settings": {
@@ -379,7 +451,7 @@
 			}
 		},
 		{
-			"name": "Operators",
+			"name": "Operators and Punctuation",
 			"scope": [
 				"punctuation",
 				"keyword.operator",

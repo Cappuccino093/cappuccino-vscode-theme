@@ -221,7 +221,7 @@
 		"gitDecoration.stageModifiedResourceForeground": "#d3bbff",
 		"gitDecoration.stageDeletedResourceForeground": "#d3bbff",
 		"gitDecoration.untrackedResourceForeground": "#d3bbff",
-		"gitDecoration.ignoredResourceForeground": "#d3bbff",
+		"gitDecoration.ignoredResourceForeground": "#8d9199",
 		"gitDecoration.conflictingResourceForeground": "#d3bbff",
 		"gitDecoration.submoduleResourceForeground": "#d3bbff",
 
